@@ -1,3 +1,4 @@
+var fs = require( 'fs' )
 var buf = new Buffer( fs.readFileSync( 'index.html' ) )
 
 var express = require('express');
